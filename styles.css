@@ -1,0 +1,160 @@
+.container
+{
+    width:100%;
+    height: 100vh;
+    margin: 5px;
+    background-color: rgb(241, 241, 241);
+}
+.Welcome_note
+{
+    padding: 10px 0px 0px 10px !important;  
+}
+
+.message
+{
+    color:black;
+    margin: 0px 10px;
+    /* padding-left: 15px; */
+}
+
+
+.successMsg
+{
+    color:green !important;
+}
+
+.errMsg
+{
+    color:red !important;
+}
+.flex
+{
+    display: flex;
+    padding: 10px;
+    margin: 20px 0px 10px 10px;
+    justify-content: space-around;
+}
+.flexwrap
+{
+    flex-wrap: wrap;
+}
+.signup_container
+{
+    background-color: transparent;
+    flex-grow: 1;
+    padding: 10px;
+    color:black;
+}
+
+.login_container
+{
+    background-color: rgb(15, 15, 109);
+    flex-grow: 1;
+    padding: 10px;
+    color:white;
+}
+.signup_container .highlight
+{
+    color: rgb(15, 15, 109);
+    text-transform: uppercase;
+}
+
+.login_container .highlight
+{
+    color: white;
+    text-transform: uppercase;
+}
+.form
+{
+    width: 100%;
+}
+.formfield
+{
+    width: 80%;
+    min-width: 350px;
+    margin: 5px;
+}
+label
+{
+    display: block;
+    font-size: 12px;
+    padding: 2px 0px;
+}
+.signup_container label
+{
+    color: rgb(121, 121, 121);
+}
+
+.form input[type=text],.form input[type=password],.form input[type=email]
+{
+    width: 100%;
+    line-height: 20px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.m-2
+{
+    margin: 1rem;
+}
+.btn
+{
+    background-color: transparent;
+
+    padding:3px 15px;
+    line-height: 20px;
+    font-size: medium;
+    cursor: pointer;
+    transition-duration: 0.3s;;
+}
+.signup_container .btn
+{
+    border-color:rgb(15, 15, 109);
+    color:rgb(15, 15, 109);
+}
+.login_container .btn
+{
+    border-color:white;
+    color:white;
+}
+.signup_container .btn:hover
+{
+    background-color: rgb(15, 15, 109);
+    color: white;
+}
+.login_container .btn:hover
+{
+    background-color: white;
+    color: rgb(15, 15, 109);
+}
+.right
+{
+    float: right;
+}
+
+input[type=checkbox]
+{
+    cursor: pointer;
+}
+.white
+{
+    color:white;
+}
+.align-right
+{
+    justify-content: right !important;
+}
+.d-flex
+{
+    display: flex;
+}
+.justify-center
+{
+    justify-content: stretch !important;
+
+}
+.grow-0
+{
+    min-width: 400px;
+    width: 50%;
+    flex-grow: 0;
+}
